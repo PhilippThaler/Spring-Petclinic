@@ -14,7 +14,7 @@
     </parent>
     <groupId>fyi.thaler</groupId>
     <artifactId>spring-petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>spring-petclinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -44,8 +44,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com/PhilippThaler/Spring-Petclinic.git</developerConnection>
-      <tag>spring-petclinic-0.0.1</tag>
+        <developerConnection>scm:git:git@github.com:PhilippThaler/Spring-Petclinic.git</developerConnection>
   </scm>
 
 </project>
