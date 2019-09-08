@@ -2,10 +2,10 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>List of Owners</title>
+    <title>List of pets</title>
 </head>
 <body>
-<h1 th:text="'List of Vets'">List of Vets...</h1>
+<h1 th:text="'List of Pets'">List of Pets...</h1>
 
 <table>
     <thead>
@@ -15,10 +15,10 @@
         <th>Last Name</th>
     </tr>
     </thead>
-    <tbody th:each="vet:${vets}">
-    <td th:text="${vet?.id}">1</td>
-    <td th:text="${vet?.firstName}">Elsa</td>
-    <td th:text="${vet?.lastName}">Anna</td>
+    <tbody th:each="pet:${pets}">
+    <td th:text="${pet?.id}">1</td>
+    <td th:text="${pet?.firstName}">Elsa</td>
+    <td th:text="${pet?.lastName}">Anna</td>
     </tbody>
 </table>
 
